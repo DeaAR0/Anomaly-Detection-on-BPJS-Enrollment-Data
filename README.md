@@ -17,6 +17,7 @@ Three components work together:
 Scores from the autoencoder and Isolation Forest are converted to percentile ranks and averaged, so neither model dominates without arbitrary weighting. Final anomaly flags combine the hybrid score with hard rule overrides.
 
 ## Project Structure
+```
 openJKN/
 ├── anomaly_detection/
 │   ├── config.py          # all paths, thresholds, and hyperparameters
@@ -33,6 +34,7 @@ outputs_enrollment/
 ├── anomaly_dashboard.png      # 6-panel summary dashboard
 ├── age_distribution.png       # age distribution: normal vs anomaly
 └── ae_training_history.png    # autoencoder loss curve
+```
 
 
 ## How to Run
