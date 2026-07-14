@@ -49,8 +49,9 @@ Train on enrollment data:
 ```
 cd openJKN
 python run_train.py
-This trains the autoencoder and Isolation Forest, saves the models to anomaly_detection/saved_models/, and writes scored outputs to outputs_enrollment/.
 ```
+This trains the autoencoder and Isolation Forest, saves the models to anomaly_detection/saved_models/, and writes scored outputs to outputs_enrollment/.
+
 Score a new file:
 
 ```
