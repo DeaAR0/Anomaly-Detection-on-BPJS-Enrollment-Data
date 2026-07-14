@@ -62,13 +62,14 @@ python run_score.py path/to/new_data.csv
 ```
 
 ## Outputs
-File	Description
-anomalies_enrollment.csv	All flagged records with scores, source, and reason
-all_scores_enrollment.csv	Full dataset with anomaly scores for every record
-anomaly_dashboard.png	Score distributions, AE vs IF scatter, anomaly sources, top rule reasons
-age_distribution.png	Age distribution comparison between normal and anomaly records
-ae_training_history.png	Autoencoder training and validation loss per epoch
-Data
+| File | Description |
+|---|---|
+| `anomalies_enrollment.csv` | All flagged records with scores, source, and reason |
+| `all_scores_enrollment.csv` | Full dataset with anomaly scores for every record |
+| `anomaly_dashboard.png` | Score distributions, AE vs IF scatter, anomaly sources, top rule reasons |
+| `age_distribution.png` | Age distribution comparison between normal and anomaly records |
+| `ae_training_history.png` | Autoencoder training and validation loss per epoch |
+
 The raw enrollment data (2015202301_kepesertaan.dta) is not included in this repository as it contains sensitive participant information. Place the file at:
 
 
